@@ -45,6 +45,27 @@ public class PlayerMovement : MonoBehaviour
             SetPosition(new Vector3(-1, 1, 0));
             //moveSqaure.transform.position = this.gameObject.transform.position + new Vector3(-1, 1, 0);
         }   
+
+    }
+
+    //Button functions for buttons
+
+    public void UpLeftButton()
+    {
+        SetPosition(new Vector3(0, 1, -1));
+    }
+
+    public void UpRightButton()
+    {
+        SetPosition(new Vector3(-1, 1, 0));
+    }
+    public void DownLeftButton()
+    {
+        SetPosition(new Vector3(1, -1, 0));
+    }
+    public void DownRightButton()
+    {
+        SetPosition(new Vector3(0, -1, 1));        
     }
 
     public void SetPosition(Vector3 x)
