@@ -23,8 +23,8 @@ public class EnemyMovement : MonoBehaviour
         pastLoc = GameObject.FindGameObjectWithTag("PastLoc");
         navAgent = gameObject.GetComponent<NavMeshAgent>();
         pastLoc.transform.position = transform.position;
-        //waypoints = GameObject.FindGameObjectsWithTag("WayPoint");
-        //FindWayPoints();
+        waypoints = GameObject.FindGameObjectsWithTag("WayPoint");
+        FindWayPoints();
 
     }
 
@@ -53,20 +53,20 @@ public class EnemyMovement : MonoBehaviour
 
         }
 
-        /*if(playerDist > .5f)
+        if(playerDist < .5f)
         {
 
             FindWayPoints();
 
-        }*/
+        }
 
     }
 
-    /*void FindWayPoints()
+    void FindWayPoints()
     {
 
         wayPoint = waypoints[Random.Range(0, waypoints.Length)];
 
-    }*/
+    }
 
 }
