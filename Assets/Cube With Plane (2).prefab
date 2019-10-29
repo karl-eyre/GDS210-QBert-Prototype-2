@@ -208,6 +208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7142023224124364390}
+  - component: {fileID: 3194395558360949026}
   m_Layer: 0
   m_Name: Cube With Plane (2)
   m_TagString: Untagged
@@ -231,3 +232,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3194395558360949026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6541020820201631261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da1f790f291ec34e83e0af9b496f92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upRightBox: {fileID: 0}
+  upLeftBox: {fileID: 0}
+  downLeftBox: {fileID: 0}
+  downRightBox: {fileID: 0}
+  aqua: {fileID: 2100000, guid: 54d98d1a540fcf443a7f0ba70d59592d, type: 2}
+  navyBlue: {fileID: 2100000, guid: 19f584929268907429d9d4cd159224be, type: 2}
+  pink: {fileID: 2100000, guid: f0b45a7ef37d8cd49adf1d25cd55d8ad, type: 2}
+  infectedTile1: {fileID: 2100000, guid: d5c1e89cb8ad6524f9f7d23aa584ed79, type: 2}
+  infectedTile2: {fileID: 2100000, guid: d5c1e89cb8ad6524f9f7d23aa584ed79, type: 2}
+  colours: []
+  colourChoice: 0

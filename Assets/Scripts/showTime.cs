@@ -28,7 +28,7 @@ public class showTime : MonoBehaviour
         {
             player.GetComponent<PlayerMovement>().TriggerSecond();
             triggerActionTimer = seconds;
-            print(seconds);
+            //print(seconds);
         }
     }
 }
