@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSqaure: {fileID: 1772381999}
+  waiting: 1
 --- !u!54 &72613940
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -846,6 +847,11 @@ PrefabInstance:
       propertyPath: upRightBox
       value: 
       objectReference: {fileID: 637687496}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &217995757 stripped
@@ -1820,6 +1826,11 @@ PrefabInstance:
       propertyPath: downRightBox
       value: 
       objectReference: {fileID: 281376839}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &513469340 stripped
@@ -2230,6 +2241,11 @@ PrefabInstance:
       propertyPath: downRightBox
       value: 
       objectReference: {fileID: 1307246131}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &702387879 stripped
@@ -3366,6 +3382,11 @@ PrefabInstance:
       propertyPath: upLeftBox
       value: 
       objectReference: {fileID: 120761818}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &899016628 stripped
@@ -3852,6 +3873,11 @@ PrefabInstance:
       propertyPath: downLeftBox
       value: 
       objectReference: {fileID: 2139134753}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &964142847 stripped
@@ -4599,6 +4625,11 @@ PrefabInstance:
       propertyPath: downRightBox
       value: 
       objectReference: {fileID: 265281908}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &1271880093 stripped
@@ -5480,6 +5511,11 @@ PrefabInstance:
       propertyPath: upRightBox
       value: 
       objectReference: {fileID: 1487547333}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &1538914666 stripped
@@ -5650,6 +5686,11 @@ PrefabInstance:
       propertyPath: upRightBox
       value: 
       objectReference: {fileID: 120761818}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &1616246320 stripped
@@ -6133,6 +6174,11 @@ PrefabInstance:
       propertyPath: upLeftBox
       value: 
       objectReference: {fileID: 332506198}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &1818377256 stripped
@@ -6234,6 +6280,7 @@ MonoBehaviour:
   pink: {fileID: 2100000, guid: f0b45a7ef37d8cd49adf1d25cd55d8ad, type: 2}
   infectedTile1: {fileID: 2100000, guid: 1fd73ed4c778e954098e3f053d40515f, type: 2}
   infectedTile2: {fileID: 2100000, guid: d5c1e89cb8ad6524f9f7d23aa584ed79, type: 2}
+  tile: {fileID: 0}
   colours: []
   colourChoice: 0
 --- !u!4 &1918911302 stripped
@@ -6877,6 +6924,11 @@ PrefabInstance:
       propertyPath: upRightBox
       value: 
       objectReference: {fileID: 1971453665}
+    - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: colourChoice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &3310622845477109346 stripped

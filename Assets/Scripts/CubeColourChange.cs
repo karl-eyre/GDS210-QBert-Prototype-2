@@ -17,6 +17,8 @@ public class CubeColourChange : MonoBehaviour
     public Material infectedTile1;
     public Material infectedTile2;
 
+    public GameObject tile;
+
     public Material[] colours;
 
     public int colourChoice;
@@ -24,7 +26,9 @@ public class CubeColourChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        tile = this.gameObject.transform.Find("Plane").gameObject;
         colours = new Material[] { aqua, navyBlue, pink, infectedTile1, infectedTile2 };
+        tile.GetComponent<MeshRenderer>().material = colours[colourChoice];
     }
 
     // Update is called once per frame
@@ -34,9 +38,9 @@ public class CubeColourChange : MonoBehaviour
     }
 
     // on collision change the colour to the lower colour
-    void ChangeSquareColour(int x)
+    public void ChangeSquareColour(int x)
     {
-        this.gameObject.GetComponentInChildren<MeshRenderer>().material = colours[colourChoice + x];
-        Debug.Log("change colour");
+        tile.GetComponent<MeshRenderer>().material = colours[colourChoice + x];
+        //this.gameObject.GetComponentInChildren<MeshRenderer>().material = colours[colourChoice + x];
     }
 }

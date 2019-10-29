@@ -62,12 +62,12 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Keypad5");
             if (waiting == true && moveSqaure.GetComponent<CubeColourChange>().upRightBox != null)
             {
-                moveSqaure = moveSqaure.GetComponent<CubeColourChange>().upRightBox;waiting = true;
+                moveSqaure = moveSqaure.GetComponent<CubeColourChange>().upRightBox; waiting = true;
                 waiting = false;
             }
             //SetPosition(new Vector3(-1, 1, 0));
             //moveSqaure.transform.position = this.gameObject.transform.position + new Vector3(-1, 1, 0);
-        }   
+        }
 
     }
 
@@ -75,20 +75,43 @@ public class PlayerMovement : MonoBehaviour
 
     public void UpLeftButton()
     {
-        SetPosition(new Vector3(0, 1, -1));
+        //   SetPosition(new Vector3(0, 1, -1));
+        if (waiting == true && moveSqaure.GetComponent<CubeColourChange>().upLeftBox != null)
+        {
+            moveSqaure = moveSqaure.GetComponent<CubeColourChange>().upLeftBox;
+            waiting = false;
+        }
     }
 
     public void UpRightButton()
     {
-        SetPosition(new Vector3(-1, 1, 0));
+        //SetPosition(new Vector3(-1, 1, 0));
+        if (waiting == true && moveSqaure.GetComponent<CubeColourChange>().upRightBox != null)
+        {
+            moveSqaure = moveSqaure.GetComponent<CubeColourChange>().upRightBox; waiting = true;
+            waiting = false;
+        }
     }
+
     public void DownLeftButton()
     {
-        SetPosition(new Vector3(1, -1, 0));
+        //SetPosition(new Vector3(1, -1, 0));
+        if (waiting == true && moveSqaure.GetComponent<CubeColourChange>().downLeftBox != null)
+        {
+            moveSqaure = moveSqaure.GetComponent<CubeColourChange>().downLeftBox;
+            //No longer waiting
+            waiting = false;
+        }
     }
+
     public void DownRightButton()
     {
-        SetPosition(new Vector3(0, -1, 1));        
+        //SetPosition(new Vector3(0, -1, 1));
+        if (waiting == true && moveSqaure.GetComponent<CubeColourChange>().downRightBox != null)
+        {
+            moveSqaure = moveSqaure.GetComponent<CubeColourChange>().downRightBox;
+            waiting = false;
+        }
     }
 
     /* Removed to account for move restricted movement
@@ -105,6 +128,8 @@ public class PlayerMovement : MonoBehaviour
         //ready for new move
         waiting = true;
         navAgent.SetDestination(moveSqaure.transform.position);
+        //moveSqaure.GetComponent<CubeColourChange>().ChangeSquareColour(-1);
     }
-   
 }
+
+
