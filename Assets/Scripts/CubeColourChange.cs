@@ -29,6 +29,10 @@ public class CubeColourChange : MonoBehaviour
     //store whether the plane needs to change colour
     public bool needToChangeColour = true;
 
+    //Store wether tile is infected
+    public bool isTileInfected = false;
+    public bool colourFlickChoice = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,18 +44,41 @@ public class CubeColourChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+ 
     }
 
     // on collision change the colour to the lower colour
     public void ChangeSquareColour(int x)
     {
-        if (needToChangeColour == true)
+        //dont change colour if above or bello array range
+        if (needToChangeColour == true && colourChoice + x > -1 && colourChoice + x < colours.Length + 1)
         {
             colourChoice = colourChoice + x;
             needToChangeColour = false;
             tile.GetComponent<MeshRenderer>().material = colours[colourChoice];
+            print("triggered");
         }
+        // & (colourChoice + x) <= 0 || (colourChoice + x) >= 5
         //this.gameObject.GetComponentInChildren<MeshRenderer>().material = colours[colourChoice + x];
     }
+
+    //function for when a tile is infected
+    /*public void infectedTile()
+    {
+        if(isTileInfected == true)
+        {
+            if (colourFlickChoice == true)
+            {
+                tile.GetComponent<MeshRenderer>().material = colours[3];
+                colourFlickChoice = false;
+            }
+            else if (colourFlickChoice == false)
+            {
+                tile.GetComponent<MeshRenderer>().material = colours[4];
+                colourFlickChoice = true;
+            }
+        }
+        
+    }
+    */
 }

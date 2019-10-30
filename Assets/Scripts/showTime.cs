@@ -9,7 +9,7 @@ public class showTime : MonoBehaviour
     float secondsToCovert = 0.0f;
     private Text clockTimer;
 
-    private int triggerActionTimer = 0;
+    public int triggerActionTimer = 0;
     public GameObject player;
 
     //Show the time per second as text
@@ -23,7 +23,7 @@ public class showTime : MonoBehaviour
         secondsToCovert = Time.realtimeSinceStartup;
         seconds =  Mathf.FloorToInt(secondsToCovert);
         clockTimer.text = "Seconds: " + seconds.ToString();
-    
+
         if (seconds > triggerActionTimer)
         {
             player.GetComponent<PlayerMovement>().TriggerSecond();
