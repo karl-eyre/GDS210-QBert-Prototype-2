@@ -47,7 +47,7 @@ public class ColourChange : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Enter");
-        if(other.gameObject.CompareTag("Enemy") == true)
+        if(other.gameObject.CompareTag("Player") == true)
         {
 
             Change();
