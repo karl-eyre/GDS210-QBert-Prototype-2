@@ -11,14 +11,12 @@ public class PlayerMovement : MonoBehaviour
     public GameObject moveSqaure;
     //store whether the player can move again or not
     public bool waiting = true;
-
-    // Start is called before the first frame update
+   
     void Start()
     {
         navAgent = gameObject.GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         //control input for player with numpad 1,2,4 & 5
@@ -29,9 +27,12 @@ public class PlayerMovement : MonoBehaviour
             //SetPosition(new Vector3(1, -1, 0));
             if (waiting == true && moveSqaure.GetComponent<CubeColourChange>().downLeftBox != null)
             {
+                //change the move location
                 moveSqaure = moveSqaure.GetComponent<CubeColourChange>().downLeftBox;
-                //No longer waiting
+                //dont let the player move wilst a selection has been made
                 waiting = false;
+                //allow the new tile to change colour
+                moveSqaure.GetComponent<CubeColourChange>().needToChangeColour = true;
             }
         }
 
@@ -43,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 moveSqaure = moveSqaure.GetComponent<CubeColourChange>().downRightBox;
                 waiting = false;
+                moveSqaure.GetComponent<CubeColourChange>().needToChangeColour = true;
             }
         }
 
@@ -54,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 moveSqaure = moveSqaure.GetComponent<CubeColourChange>().upLeftBox;
                 waiting = false;
+                moveSqaure.GetComponent<CubeColourChange>().needToChangeColour = true;
             }
         }
 
@@ -64,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 moveSqaure = moveSqaure.GetComponent<CubeColourChange>().upRightBox; waiting = true;
                 waiting = false;
+                moveSqaure.GetComponent<CubeColourChange>().needToChangeColour = true;
             }
             //SetPosition(new Vector3(-1, 1, 0));
             //moveSqaure.transform.position = this.gameObject.transform.position + new Vector3(-1, 1, 0);
@@ -80,6 +84,7 @@ public class PlayerMovement : MonoBehaviour
         {
             moveSqaure = moveSqaure.GetComponent<CubeColourChange>().upLeftBox;
             waiting = false;
+            moveSqaure.GetComponent<CubeColourChange>().needToChangeColour = true;
         }
     }
 
@@ -90,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
         {
             moveSqaure = moveSqaure.GetComponent<CubeColourChange>().upRightBox; waiting = true;
             waiting = false;
+            moveSqaure.GetComponent<CubeColourChange>().needToChangeColour = true;
         }
     }
 
@@ -101,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
             moveSqaure = moveSqaure.GetComponent<CubeColourChange>().downLeftBox;
             //No longer waiting
             waiting = false;
+            moveSqaure.GetComponent<CubeColourChange>().needToChangeColour = true;
         }
     }
 
@@ -111,6 +118,7 @@ public class PlayerMovement : MonoBehaviour
         {
             moveSqaure = moveSqaure.GetComponent<CubeColourChange>().downRightBox;
             waiting = false;
+            moveSqaure.GetComponent<CubeColourChange>().needToChangeColour = true;
         }
     }
 
@@ -128,7 +136,7 @@ public class PlayerMovement : MonoBehaviour
         //ready for new move
         waiting = true;
         navAgent.SetDestination(moveSqaure.transform.position);
-        //moveSqaure.GetComponent<CubeColourChange>().ChangeSquareColour(-1);
+        moveSqaure.GetComponent<CubeColourChange>().ChangeSquareColour(-1);
     }
 }
 

@@ -2282,7 +2282,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.6
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3838,26 +3838,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1503607977561009595, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d8cc1661bd2fc6640b8155bb8953906a, type: 2}
-    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.45
-      objectReference: {fileID: 0}
     - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: upRightBox
@@ -3877,6 +3857,26 @@ PrefabInstance:
         type: 3}
       propertyPath: colourChoice
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503607977561009595, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d8cc1661bd2fc6640b8155bb8953906a, type: 2}
+    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
@@ -6283,6 +6283,7 @@ MonoBehaviour:
   tile: {fileID: 0}
   colours: []
   colourChoice: 0
+  needToChangeColour: 1
 --- !u!4 &1918911302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6911594516725561965, guid: 3b9f5344a93b8b540a74e2c3ff55a7fa,
