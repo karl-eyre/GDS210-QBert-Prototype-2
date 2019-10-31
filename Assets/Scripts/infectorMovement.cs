@@ -5,11 +5,12 @@ using UnityEngine;
 public class infectorMovement : MonoBehaviour
 {
     public Renderer infectorColour;
+    //vaibles to hold. Current offset, Multiplyer of offset & addition of multiplyer for spin up. 
     public float spinSpeed;
     public float spinMultiplyer = 0.1f;
-
     public float spinUpMultiplyerAddition;
 
+    //get time from show time script
     public GameObject timer;
 
     public bool spinUpAndInfect = true;
@@ -23,8 +24,10 @@ public class infectorMovement : MonoBehaviour
 
     void Update()
     {
+        
         SpinUpOrDown();
 
+        //tell the infect when it is spinning fast enough to infect tiles
         if (spinMultiplyer >= 0.4f && spinUpAndInfect == true)
         {
             this.tag = "InfectorEnemy";
@@ -35,14 +38,17 @@ public class infectorMovement : MonoBehaviour
             this.tag = "Untagged";
         }
 
+        //the the infect when to cool down
         if (spinMultiplyer > 0.5f)
         {
             spinUpAndInfect = false; 
         }
 
+        //Create rotate by adding to offset
         spinSpeed = spinSpeed + spinMultiplyer;
         infectorColour.material.SetTextureOffset("_MainTex", new Vector2(spinSpeed, 0));
 
+        //Start spin timmer + reset
         if (timer.GetComponent<showTime>().seconds > timeToWaitBeforeSpinUp)
         {
             spinUpAndInfect = true;
@@ -50,6 +56,7 @@ public class infectorMovement : MonoBehaviour
         } 
     }
 
+    //spin up or down based on status
     void SpinUpOrDown()
     {
         if (spinUpAndInfect == true && spinMultiplyer < 0.51f)

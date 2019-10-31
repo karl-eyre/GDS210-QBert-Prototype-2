@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class showTime : MonoBehaviour
 {
-    
+    public Camera sceneManagerObject;
 
     public int seconds;
     float secondsToCovert = 0.0f;
@@ -32,7 +32,7 @@ public class showTime : MonoBehaviour
     {
         secondsToCovert = Time.realtimeSinceStartup;
         seconds =  Mathf.FloorToInt(secondsToCovert);
-        clockTimer.text = "Seconds: " + seconds.ToString();
+        clockTimer.text = "Time Remaining: " + (endTime - seconds).ToString();
 
         if (seconds > triggerActionTimer)
         {
@@ -50,6 +50,7 @@ public class showTime : MonoBehaviour
         if (endTime < seconds)
         {
             print("YOU LOSE THE GAME");
+            sceneManagerObject.GetComponent<SceneButtons>().SceneChangeYouLose();
         }
     }
 

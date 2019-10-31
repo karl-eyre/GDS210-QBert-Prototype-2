@@ -5,7 +5,8 @@ using UnityEngine.AI;
 
 public class EnemyChasePlayer : MonoBehaviour
 {
-
+    public Camera sceneManager;
+    
     public GameObject wayPoint;
     public GameObject pastLoc;
     public float pastLocDist;
@@ -42,7 +43,7 @@ public class EnemyChasePlayer : MonoBehaviour
 
             pastLoc.transform.position = transform.position;
             navAgent.destination = pastLoc.transform.position;
-            moveTimer = currentTime += 1;
+            moveTimer = currentTime += 2;
 
         }
 
@@ -64,4 +65,12 @@ public class EnemyChasePlayer : MonoBehaviour
 
     }
 
+    //Kill the player on touch
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player") == true)
+        {
+            sceneManager.GetComponent<SceneButtons>().SceneChangeYouLose();
+        }            
+    }
 }
