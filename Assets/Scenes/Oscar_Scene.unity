@@ -205,12 +205,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36673797}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 7, z: 3}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &37935765
 GameObject:
@@ -297,12 +297,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37935765}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 4, z: 1}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &40624797
 GameObject:
@@ -837,7 +837,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!4 &161011863 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
@@ -881,7 +889,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!4 &173843218 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
@@ -964,7 +980,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &186575881 stripped
 Transform:
@@ -1115,7 +1131,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &252044331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,7 +1228,73 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
+--- !u!1 &253099884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 253099885}
+  m_Layer: 0
+  m_Name: WayPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &253099885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253099884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 36673801}
+  - {fileID: 333119262}
+  - {fileID: 1632093284}
+  - {fileID: 1976712601}
+  - {fileID: 1378716213}
+  - {fileID: 687286102}
+  - {fileID: 1087467048}
+  - {fileID: 310808079}
+  - {fileID: 1784444290}
+  - {fileID: 2026449013}
+  - {fileID: 407701804}
+  - {fileID: 453931168}
+  - {fileID: 1903137332}
+  - {fileID: 1041205557}
+  - {fileID: 37935769}
+  - {fileID: 1365958692}
+  - {fileID: 1790017604}
+  - {fileID: 404724755}
+  - {fileID: 640387741}
+  - {fileID: 1931837643}
+  - {fileID: 864823649}
+  - {fileID: 397038602}
+  - {fileID: 459898158}
+  - {fileID: 653701627}
+  - {fileID: 1404120200}
+  - {fileID: 1178557622}
+  - {fileID: 1213871855}
+  - {fileID: 379179154}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &274087552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1549,12 +1639,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310808075}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 6, z: 2}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &327972240
 GameObject:
@@ -1692,12 +1782,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333119258}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 6, z: 3}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &341547482 stripped
 Transform:
@@ -1743,7 +1833,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1001 &365562543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1984,12 +2082,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379179150}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 1, z: -3}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &389465688 stripped
 Transform:
@@ -2035,7 +2133,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &397038598
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,12 +2227,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397038598}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &404724751
 GameObject:
@@ -2213,12 +2319,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404724751}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 1, z: 1}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &407701800
 GameObject:
@@ -2305,12 +2411,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407701800}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 3, z: 2}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432759930 stripped
 GameObject:
@@ -2351,7 +2457,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &453931164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,12 +2551,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453931164}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 2, z: 2}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &459898154
 GameObject:
@@ -2529,12 +2643,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459898154}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 3, z: -1}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461632226
 GameObject:
@@ -2606,7 +2720,7 @@ Transform:
   - {fileID: 775627843}
   - {fileID: 749216947}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &463387511
 GameObject:
@@ -2766,7 +2880,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!4 &598094844 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
@@ -2880,7 +3002,7 @@ Transform:
   - {fileID: 564687320}
   - {fileID: 671236391}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &640387737
 GameObject:
@@ -2967,12 +3089,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640387737}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 4, z: 0}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &641434325
 GameObject:
@@ -3116,12 +3238,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653701623}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 2, z: -1}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &667695646
 GameObject:
@@ -3187,7 +3309,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &669136945
 GameObject:
@@ -3279,7 +3401,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!4 &671236391 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
@@ -3579,12 +3709,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687286098}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: 2, z: 3}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &687921428
 GameObject:
@@ -4167,7 +4297,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1001 &837785569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4310,7 +4448,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &864823645
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,12 +4542,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864823645}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 2, z: 0}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &864986294
 PrefabInstance:
@@ -4919,7 +5065,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1023024390
 GameObject:
   m_ObjectHideFlags: 0
@@ -5107,12 +5261,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041205553}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 5, z: 1}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1066044528
 GameObject:
@@ -5190,7 +5344,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1075280520
 GameObject:
@@ -5268,7 +5422,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1076243048
 GameObject:
@@ -5406,12 +5560,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087467044}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3, y: 1, z: 3}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1097646159
 GameObject:
@@ -5484,7 +5638,7 @@ PrefabInstance:
     - target: {fileID: 78345603157351111, guid: 19b6f907d13749a488106e5f27a69bc8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 78345603157351105, guid: 19b6f907d13749a488106e5f27a69bc8,
         type: 3}
@@ -5524,7 +5678,7 @@ PrefabInstance:
     - target: {fileID: 78345603157351105, guid: 19b6f907d13749a488106e5f27a69bc8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 78345603157351105, guid: 19b6f907d13749a488106e5f27a69bc8,
         type: 3}
@@ -5805,7 +5959,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1158966060
 GameObject:
   m_ObjectHideFlags: 0
@@ -5945,7 +6107,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1178557618
 GameObject:
   m_ObjectHideFlags: 0
@@ -6031,12 +6201,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178557618}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 2, z: -2}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1195521125
 GameObject:
@@ -6278,12 +6448,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213871851}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 1, z: -2}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1223305720
 PrefabInstance:
@@ -6477,7 +6647,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1284532347
 GameObject:
   m_ObjectHideFlags: 0
@@ -6728,7 +6906,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1365958688
 GameObject:
   m_ObjectHideFlags: 0
@@ -6814,12 +7000,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365958688}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 3, z: 1}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1377137302 stripped
 Transform:
@@ -6912,12 +7098,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378716209}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 3, z: 3}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1404120196
 GameObject:
@@ -7004,12 +7190,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404120196}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 1, z: -1}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1409399117
 GameObject:
@@ -7205,7 +7391,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!4 &1442128207 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
@@ -7248,7 +7442,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!4 &1561931446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
@@ -7531,12 +7733,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632093280}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 5, z: 3}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1660150190 stripped
 GameObject:
@@ -7576,7 +7778,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1677437078
 GameObject:
   m_ObjectHideFlags: 0
@@ -7667,7 +7877,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1697271732
 GameObject:
   m_ObjectHideFlags: 0
@@ -8062,12 +8280,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784444286}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 5, z: 2}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1786384989
 PrefabInstance:
@@ -8258,12 +8476,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790017600}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 1}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1800306742 stripped
 GameObject:
@@ -8304,7 +8522,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1001 &1800506718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8613,7 +8839,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1870276037 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6541020820201631261, guid: a1467c41d8416a94eae7f78089203235,
@@ -8650,7 +8884,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1871041881
 GameObject:
   m_ObjectHideFlags: 0
@@ -9046,12 +9288,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903137328}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: 1, z: 2}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1913502513 stripped
 Transform:
@@ -9096,7 +9338,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &1931837639
 GameObject:
   m_ObjectHideFlags: 0
@@ -9182,12 +9432,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931837639}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 3, z: 0}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1951199562
 GameObject:
@@ -9265,7 +9515,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1976712597
 GameObject:
@@ -9352,12 +9602,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976712597}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 4, z: 3}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1979284013
 GameObject:
@@ -9505,7 +9755,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!4 &2021512820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
@@ -9597,12 +9855,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026449009}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 4, z: 2}
   m_LocalScale: {x: 0.1, y: 1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 253099885}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2047686190 stripped
 Transform:
@@ -9648,7 +9906,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &2085007107 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6541020820201631261, guid: a1467c41d8416a94eae7f78089203235,
@@ -9686,7 +9952,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1 &2099958618 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6541020820201631261, guid: a1467c41d8416a94eae7f78089203235,
@@ -9725,7 +9999,15 @@ MonoBehaviour:
   firstMat: {fileID: 2100000, guid: ca244a9c0facd3344b9106c60fae5485, type: 2}
   secondMat: {fileID: 2100000, guid: a7619edf535a9c7438336816d3bf7078, type: 2}
   thirdMat: {fileID: 2100000, guid: 32581f5ba527256448a552ae187f880e, type: 2}
+  fourthMat: {fileID: 2100000, guid: af36c1f3e1c2a944bb027b858a2ddfa5, type: 2}
+  firstParticle: {fileID: 2185176935122923770, guid: 28b1449697b72304b899797f44a52959,
+    type: 3}
+  secondParticle: {fileID: 255612536645547229, guid: 5ea9139720309d64b9e276d72ca00597,
+    type: 3}
+  thirdParticle: {fileID: 7882225444524471745, guid: ecea8a515d789fd429b65895fa887bfe,
+    type: 3}
   infectTime: 5
+  currentColour: 0
 --- !u!1001 &2107222476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9946,7 +10228,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 36a99940313dd4140a6fd24d69686f4e, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -14790,7 +15072,7 @@ PrefabInstance:
     - target: {fileID: 78345603157351105, guid: 19b6f907d13749a488106e5f27a69bc8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 78345603157351105, guid: 19b6f907d13749a488106e5f27a69bc8,
         type: 3}
@@ -14810,7 +15092,7 @@ PrefabInstance:
     - target: {fileID: 78345603157351106, guid: 19b6f907d13749a488106e5f27a69bc8,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 78345603157351109, guid: 19b6f907d13749a488106e5f27a69bc8,
         type: 3}
@@ -14827,5 +15109,10 @@ PrefabInstance:
       propertyPath: goal
       value: 
       objectReference: {fileID: 1075280520}
+    - target: {fileID: 78345603037068215, guid: 19b6f907d13749a488106e5f27a69bc8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19b6f907d13749a488106e5f27a69bc8, type: 3}
