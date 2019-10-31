@@ -170,7 +170,10 @@ public class ColourChange : MonoBehaviour
             foreach (GameObject block in adjacentBlocks)
             {
 
-                block.GetComponent<ColourChange>().Infected();
+                //block.GetComponent<ColourChange>().Infected();
+                block.GetComponent<ColourChange>().meshR.material = block.GetComponent<ColourChange>().fourthMat;
+
+                block.GetComponent<ColourChange>().currentColour = Colour.Fourth;
 
             }
 

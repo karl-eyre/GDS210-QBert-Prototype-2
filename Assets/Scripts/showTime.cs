@@ -23,7 +23,7 @@ public class showTime : MonoBehaviour
     void Start()
     {
         infectCube = GameObject.FindGameObjectsWithTag("Cube");
-        clockTimer = this.GetComponent<Text>();
+        clockTimer = gameObject.GetComponent<Text>();
     }
 
     void Update()
@@ -35,14 +35,14 @@ public class showTime : MonoBehaviour
         if (seconds > triggerActionTimer)
         {
             player.GetComponent<PlayerMovement>().TriggerSecond();
-            triggerActionTimer = seconds - 1;
+            triggerActionTimer = seconds;
             //print(seconds);
         }
 
         if (seconds > (timeToInfect + timeBetweenInfect))
         {
             infectCubes();
-            timeToInfect = seconds;
+            timeToInfect = seconds - 1;
         }
 
         if (endTime > seconds)
@@ -55,7 +55,7 @@ public class showTime : MonoBehaviour
     {
         foreach (GameObject cube in infectCube)
         {
-            cube.GetComponent<ColourChange>().infect();
+            cube.GetComponent<CubeColourChange>().infect();
         }
     }
 
