@@ -19,14 +19,14 @@ public class ColourChange : MonoBehaviour
     public GameObject secondParticle;
     public GameObject thirdParticle;
     // how many seconsd untill it infects the adjacent blocks
-    public float infectTime;
+    //public float infectTime;
 
     // current state aka current stage of the infection
     public Colour currentColour = Colour.First;
     // the current time since the scene was loaded
-    private float currentTime;
+    //private float currentTime;
     // at waht time it will infect
-    private float turnTime;
+    //private float turnTime;
     // the meshrenderer for the colour change
     private MeshRenderer meshR;
     
@@ -69,9 +69,9 @@ public class ColourChange : MonoBehaviour
     void Update()
     {
         // gets the current time
-        currentTime = Time.timeSinceLevelLoad;
+        //currentTime = Time.timeSinceLevelLoad;
         // if its not in the first stage of the infection and the current time is larger the the turn time it runns the infect function
-        if(currentColour == Colour.Fourth)
+        /*if(currentColour == Colour.Fourth)
         {
 
             if (currentTime > turnTime)
@@ -81,7 +81,7 @@ public class ColourChange : MonoBehaviour
 
             }
 
-        }
+        }*/
 
     }
 
@@ -157,7 +157,7 @@ public class ColourChange : MonoBehaviour
 
         currentColour = Colour.Fourth;
         
-        turnTime = currentTime += infectTime;
+        //turnTime = currentTime += infectTime;
 
     }
     // the same as the infected function except its called by the this game object and runnes the infected function on the adjacent blocks
