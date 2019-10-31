@@ -40,7 +40,7 @@ public class EnemyMovement : MonoBehaviour
 
         playerDist = Vector3.Distance(wayPoint.transform.position, transform.position);
 
-        if(pastLocDist > 1.4f)
+        if(pastLocDist > 1.35)
         {
             
             pastLoc.transform.position = transform.position;

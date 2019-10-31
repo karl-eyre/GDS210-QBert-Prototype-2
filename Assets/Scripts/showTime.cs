@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class showTime : MonoBehaviour
 {
+    
+
     public int seconds;
     float secondsToCovert = 0.0f;
     private Text clockTimer;
@@ -45,7 +47,7 @@ public class showTime : MonoBehaviour
             timeToInfect = seconds - 1;
         }
 
-        if (endTime > seconds)
+        if (endTime < seconds)
         {
             print("YOU LOSE THE GAME");
         }

@@ -38,7 +38,7 @@ public class SceneButtons : MonoBehaviour
 
     public void SceneChangeGame()
     {
-        SceneManager.LoadScene("Oscar_Scene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Karl_Scene", LoadSceneMode.Single);
     }
 
     public void SceneChangeReferences()

@@ -203,7 +203,7 @@ public class CubeColourChange : MonoBehaviour
             if(upRightBox != null)
             {
 
-                upRightBox.GetComponent<CubeColourChange>().meshR.material = upRightBox.GetComponent<CubeColourChange>().thirdMat;
+                upRightBox.GetComponent<CubeColourChange>().meshR.material = upRightBox.GetComponent<CubeColourChange>().fourthMat;
                 upRightBox.GetComponent<CubeColourChange>().currentColour = Colour.Fourth;
 
             }
@@ -211,7 +211,7 @@ public class CubeColourChange : MonoBehaviour
             if(upLeftBox != null)
             {
 
-                upLeftBox.GetComponent<CubeColourChange>().meshR.material = upLeftBox.GetComponent<CubeColourChange>().thirdMat;
+                upLeftBox.GetComponent<CubeColourChange>().meshR.material = upLeftBox.GetComponent<CubeColourChange>().fourthMat;
                 upLeftBox.GetComponent<CubeColourChange>().currentColour = Colour.Fourth;
 
             }
@@ -219,7 +219,7 @@ public class CubeColourChange : MonoBehaviour
             if(downLeftBox != null)
             {
 
-                downLeftBox.GetComponent<CubeColourChange>().meshR.material = downLeftBox.GetComponent<CubeColourChange>().thirdMat;
+                downLeftBox.GetComponent<CubeColourChange>().meshR.material = downLeftBox.GetComponent<CubeColourChange>().fourthMat;
                 downLeftBox.GetComponent<CubeColourChange>().currentColour = Colour.Fourth;
 
             }
@@ -227,7 +227,7 @@ public class CubeColourChange : MonoBehaviour
             if(downRightBox != null)
             {
 
-                downRightBox.GetComponent<CubeColourChange>().meshR.material = downRightBox.GetComponent<CubeColourChange>().thirdMat;
+                downRightBox.GetComponent<CubeColourChange>().meshR.material = downRightBox.GetComponent<CubeColourChange>().fourthMat;
                 downRightBox.GetComponent<CubeColourChange>().currentColour = Colour.Fourth;
 
             }
