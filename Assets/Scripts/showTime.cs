@@ -17,6 +17,8 @@ public class showTime : MonoBehaviour
     public int timeToInfect;
     public int timeBetweenInfect;
 
+    public int endTime;
+
     //Show the time per second as text
     void Start()
     {
@@ -33,7 +35,7 @@ public class showTime : MonoBehaviour
         if (seconds > triggerActionTimer)
         {
             player.GetComponent<PlayerMovement>().TriggerSecond();
-            triggerActionTimer = seconds;
+            triggerActionTimer = seconds - 1;
             //print(seconds);
         }
 
@@ -41,6 +43,11 @@ public class showTime : MonoBehaviour
         {
             infectCubes();
             timeToInfect = seconds;
+        }
+
+        if (endTime > seconds)
+        {
+            print("YOU LOSE THE GAME");
         }
     }
 
