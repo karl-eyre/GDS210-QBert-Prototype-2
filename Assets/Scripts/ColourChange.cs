@@ -65,7 +65,6 @@ public class ColourChange : MonoBehaviour
         }
 
     }
-
     
     void Update()
     {
@@ -162,13 +161,18 @@ public class ColourChange : MonoBehaviour
 
     }
     // the same as the infected function except its called by the this game object and runnes the infected function on the adjacent blocks
-    void infect()
+    public void infect()
     {
 
-        foreach (GameObject block in adjacentBlocks)
+        if(currentColour == Colour.Fourth)
         {
 
-            block.GetComponent<ColourChange>().Infected();
+            foreach (GameObject block in adjacentBlocks)
+            {
+
+                block.GetComponent<ColourChange>().Infected();
+
+            }
 
         }
 
