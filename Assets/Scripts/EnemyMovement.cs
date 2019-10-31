@@ -9,18 +9,19 @@ public class EnemyMovement : MonoBehaviour
     public GameObject wayPoint;
     public GameObject pastLoc;
     public float pastLocDist;
+    public GameObject goal;
 
     private float currentTime;
-    private int seconds;
+    private float seconds;
     private NavMeshAgent navAgent;
-    private int moveTimer;
+    private float moveTimer;
     private GameObject[] waypoints;
     private float playerDist;
 
     void Start()
     {
 
-        pastLoc = GameObject.FindGameObjectWithTag("PastLoc");
+        //pastLoc = GameObject.FindGameObjectWithTag("PastLoc");
         navAgent = gameObject.GetComponent<NavMeshAgent>();
         pastLoc.transform.position = transform.position;
         waypoints = GameObject.FindGameObjectsWithTag("WayPoint");
@@ -32,7 +33,8 @@ public class EnemyMovement : MonoBehaviour
     {
 
         currentTime = Time.realtimeSinceStartup;
-        seconds = Mathf.FloorToInt(currentTime);
+        //seconds = Mathf.FloorToInt(currentTime);
+        
 
         pastLocDist = Vector3.Distance(pastLoc.transform.position, transform.position);
 
@@ -40,20 +42,23 @@ public class EnemyMovement : MonoBehaviour
 
         if(pastLocDist > 1.4f)
         {
-            moveTimer = seconds += 1;
+            
             pastLoc.transform.position = transform.position;
             navAgent.destination = pastLoc.transform.position;
+            moveTimer = currentTime += 1;
 
         }
 
-        if(seconds > moveTimer)
+        if(currentTime > moveTimer)
         {
 
             navAgent.destination = wayPoint.transform.position;
 
+            goal.transform.position = wayPoint.transform.position;
+
         }
 
-        if(playerDist < .5f)
+        if(playerDist < .1f)
         {
 
             FindWayPoints();

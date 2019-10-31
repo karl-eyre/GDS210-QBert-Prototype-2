@@ -354,11 +354,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -412,6 +407,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -666,11 +666,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 12 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -724,6 +719,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -942,11 +942,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 5 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1000,6 +995,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -1213,11 +1213,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 14 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1271,6 +1266,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -1432,11 +1432,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 16 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1490,6 +1485,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -1619,11 +1619,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 10 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1679,6 +1674,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1728,11 +1728,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 11 Cube With Plane
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
@@ -1787,6 +1782,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -2067,11 +2067,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 7 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2127,6 +2122,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2176,11 +2176,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 13 Cube With Plane
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
@@ -2235,6 +2230,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -2531,11 +2531,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 19 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2591,6 +2586,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2635,11 +2635,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 4 Cube With Plane
-      objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
@@ -2694,6 +2689,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -3030,11 +3030,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 6 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3088,6 +3083,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -3379,11 +3379,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 21 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3437,6 +3432,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -3856,11 +3856,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3916,10 +3911,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 3194395558360949026, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
@@ -3961,21 +3976,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d8cc1661bd2fc6640b8155bb8953906a, type: 2}
-    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2047348203857729563, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.45
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1467c41d8416a94eae7f78089203235, type: 3}
 --- !u!4 &964142847 stripped
@@ -4321,11 +4321,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 9 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4379,6 +4374,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -4664,11 +4664,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4722,6 +4717,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -5307,11 +5307,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 8 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5365,6 +5360,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -5582,11 +5582,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 18 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5640,6 +5635,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -5767,11 +5767,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 20 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5825,6 +5820,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -6278,11 +6278,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 15 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6336,6 +6331,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
@@ -6453,33 +6453,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 769810837}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1913753046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1913753040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5da1f790f291ec34e83e0af9b496f92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upRightBox: {fileID: 0}
-  upLeftBox: {fileID: 0}
-  downLeftBox: {fileID: 0}
-  downRightBox: {fileID: 0}
-  aqua: {fileID: 2100000, guid: 54d98d1a540fcf443a7f0ba70d59592d, type: 2}
-  navyBlue: {fileID: 2100000, guid: 19f584929268907429d9d4cd159224be, type: 2}
-  pink: {fileID: 2100000, guid: f0b45a7ef37d8cd49adf1d25cd55d8ad, type: 2}
-  infectedTile1: {fileID: 2100000, guid: 1fd73ed4c778e954098e3f053d40515f, type: 2}
-  infectedTile2: {fileID: 2100000, guid: d5c1e89cb8ad6524f9f7d23aa584ed79, type: 2}
-  tile: {fileID: 0}
-  colours: []
-  colourChoice: 0
-  needToChangeColour: 1
-  isTileInfected: 0
-  colourFlickChoice: 1
 --- !u!4 &1918911302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6911594516725561965, guid: 3b9f5344a93b8b540a74e2c3ff55a7fa,
@@ -7079,11 +7052,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 17 Cube With Plane
       objectReference: {fileID: 0}
-    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7137,6 +7105,11 @@ PrefabInstance:
     - target: {fileID: 7142023224124364390, guid: a1467c41d8416a94eae7f78089203235,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540273091001294018, guid: a1467c41d8416a94eae7f78089203235,
+        type: 3}
+      propertyPath: m_NavMeshLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3122544537356726087, guid: a1467c41d8416a94eae7f78089203235,
