@@ -8,6 +8,8 @@ TagManager:
   - PastLoc
   - Enemy
   - InfectorEnemy
+  - Infector
+  - Cube
   layers:
   - Default
   - TransparentFX
