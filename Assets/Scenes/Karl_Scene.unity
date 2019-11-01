@@ -7621,6 +7621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79c47d718433814b9b588098b12cbac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneManager: {fileID: 963194227}
   wayPoint: {fileID: 72613933}
   pastLoc: {fileID: 961578252}
   pastLocDist: 0

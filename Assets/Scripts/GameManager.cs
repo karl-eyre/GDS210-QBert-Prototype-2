@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,19 +12,27 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        CubesColours = GameObject.FindGameObjectsWithTag("Plane");
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            CubesColours = GameObject.FindGameObjectsWithTag("Plane");
+        }
+        
     }
 
     
     void Update()
     {
-        CountScore();
-        
-        if (Score == 0)
+        if (SceneManager.GetActiveScene().name == "Game")
         {
-            print("YOU WIN THE GAME!!!");
-            this.GetComponent<SceneButtons>().SceneChangeYouWin();
-        }        
+            CountScore();
+
+            if (Score == 0)
+            {
+                print("YOU WIN THE GAME!!!");
+                this.GetComponent<SceneButtons>().SceneChangeYouWin();
+            }
+        }
+                   
     }
 
     void CountScore()
